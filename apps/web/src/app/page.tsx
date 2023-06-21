@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { Button, Card } from "ui";
+import { Button, Card, Test } from "ui";
 
 const CARD_CONTENT = [
   {
@@ -33,6 +33,7 @@ export default function Home() {
             Turborepo Example
           </span>
         </h1>
+        <Test />
         <div className="mx-auto mt-5 max-w-xl sm:flex sm:justify-center md:mt-8">
           <Button />
         </div>
